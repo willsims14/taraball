@@ -43,39 +43,39 @@
     </div>
 
 
-    <div class="container">
+    <div id="image-container" class="container">
         <div class="row">
-            <div class="col-sm-4 "><img src="images/informal_formal.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/lake.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/old_family_pic.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/informal_formal.JPG" class="img-fluid" onload="fadeIn(this)" ></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/lake.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/old_family_pic.JPG" class="img-fluid" onload="fadeIn(this)"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-4 "><img src="images/austin_wallace.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/dad_mamou_chris.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/gameday.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/austin_wallace.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/dad_mamou_chris.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/gameday.JPG" class="img-fluid" onload="fadeIn(this)"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-4 "><img src="images/dad_mamou_chris.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/graduation.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/lake2.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/dad_mamou_chris.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/graduation.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/lake2.JPG" class="img-fluid" onload="fadeIn(this)"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-4 "><img src="images/mamou.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/parents_night.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/pool.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/mamou.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/parents_night.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/pool.JPG" class="img-fluid" onload="fadeIn(this)"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-4 "><img src="images/prom.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/selfie.JPG" class="img-fluid"></div>
-            <div class="col-sm-4 "><img src="images/with_alli_and_dad.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/prom.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/selfie.JPG" class="img-fluid" onload="fadeIn(this)"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/with_alli_and_dad.JPG" class="img-fluid" onload="fadeIn(this)"></div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm-4 "><img src="images/with_chris.JPG" class="img-fluid"></div>
+            <div class="col-sm-4 "><img style="display: none;" src="images/with_chris.JPG" class="img-fluid"></div>
         </div>
     </div>
 
@@ -86,8 +86,16 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+function fadeIn(){
+    $(".img-fluid").fadeIn();
+}
+</script>
+
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
+
 </body>
 </html>
 

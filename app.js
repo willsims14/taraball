@@ -24,15 +24,7 @@ var images = [
 
 $("#love-btn").on('click', function(event){
     $("#heart-container").toggle()
-});
-
-
-
-var viewer = new Viewer(document.getElementById('image'), {
-  inline: true,
-  viewed: function() {
-    viewer.zoomTo(1);
-  }
+    $("#image-container").toggle()
 });
 
 

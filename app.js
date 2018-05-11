@@ -25,6 +25,11 @@ var images = [
 $("#love-btn").on('click', function(event){
     $("#heart-container").toggle()
     $("#image-container").toggle()
+    if ($("#btn").html() == "Surprise"){
+        $("#btn").html('Hide')
+    }else{
+        $("#btn").html('Surprise')
+    }
 });
 
 

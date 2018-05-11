@@ -18,3 +18,10 @@ img {
     max-height: 100%;
 }
 
+#msg{
+    margin: 5%;
+    background-color: #DEDEDE;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
